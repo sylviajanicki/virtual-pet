@@ -1,0 +1,118 @@
+
+.image {
+    padding-bottom: 400px;
+    width: 55%;
+    float: left;
+}
+
+
+#state {
+    position: absolute;
+    top: 220px;
+    left:190px;
+    z-index:4;
+}
+
+#imgDefault {
+    position: absolute;
+    top: 170px;
+    left: 100px;
+  }
+
+#imgHappy {
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    /* z-index: 1; */
+}
+
+#imgAnnoyed {
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    /* z-index: 2; */
+}
+
+#imgBored {
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    /* z-index: 3; */
+}
+
+#action {
+    position: absolute;
+    top: 170px;
+    left: 550px;
+    font-family: 'Amatic SC', cursive; 
+    font-size: 30px;
+
+}
+
+body {
+    margin: 25px 100px 30px 100px;
+    max-width: 800px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    font-size: x-large ;
+    background-color: #1582ff;
+    
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive; 
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+}
+
+h2{
+    font-family: 'Amatic SC', cursive;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.thoughts {
+    
+    line-height: 14px;
+    font-size: 20px;
+    /* z-index: 5; */
+    
+}
+
+.button {
+    background-color: rgb(193, 211, 236);
+    border: none;
+    color: black;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 25px;
+  }
+
+  .resetbutton {
+    background-color: rgb(193, 211, 236);
+    border: none;
+    color: black;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+  }
+
+
+  .button:active {
+    background-color: black;
+    color: white;
+  }
+
+  .resetbutton:active {
+    background-color: black;
+    color: white;
+  }

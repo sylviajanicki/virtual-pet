@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Virtual Creature Simulator</title>
+         <link rel="stylesheet" href="sheep.css">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Indie+Flower&family=Josefin+Sans:ital,wght@0,500;1,400&family=Palette+Mosaic&display=swap" rel="stylesheet">
+        <script src="sheep_copyyy.js"></script>
+        
+    </head>
+
+    <body>
+
+        <h1>I'm a sheepy dog</h1>
+        <h2>~ Interact with me! Bahhh ~</h2>
+
+        <hr>
+        
+        <!--Current State: <span id="state"><b>???</b></span>-->
+        <div id="state">    
+        <!--<p><span class="thoughts" id="thoughts"><b>Hello I'm sheepy dog!</b></span> </p>-->
+        <p><span class="thoughts" id="thoughtsHunger">I'm hungry!</span></p>
+        <p><span class="thoughts" id="thoughtsWalk">I want to go for a walk!</span></p>
+        <p><span class="thoughts" id="thoughtsHug">Hug me!</span> </p>
+        </div>
+
+        <div id="photostate" class="image">
+            <img id="imgDefault" height="700" src="images/sheepyCreature_default1.jpg"></img> 
+            <img id="imgHappy" height="700" src="images/sheepyCreature_happy1.jpg"></img>
+            <img id="imgBored" height="700" src="images/sheepyCreature_bored1.jpg"></img>
+            <img id="imgAnnoyed" height="700" src="images/sheepyCreature_annoyed1.jpg"></img>  
+        </div>
+
+
+
+
+        
+
+        <div id="action">
+
+            <h3>Interact with the sheep!</h3>
+            <button class="button" onclick="feedSheep()" id="feed">Feed the Sheep</button>
+            <!--<input type="text" id="feed" value="0"></input>-->
+            <br><br>
+
+            <button class="button" onclick="walkSheep()" id="walk">Walk the Sheep</button>
+            <!--<input type="text" id="walk" value="0"></input>-->
+            <br><br>
+            <button class="button" onclick="hugSheep()" id="hug">Hug the Sheep</button>
+            <!--<input type="text" id="hug" value="0"></input>-->
+            <br>
+
+            <p>Hunger Level: <span id="hunger">3</span> </p>
+            <p>Walks Needed: <span id="walksNeeded">3</span> </p>
+            <p>Hugs Needed: <span id="hugsNeeded">3</span> </p>
+
+            <input type="reset" class="resetbutton" onclick="reset()" value="reset">
+
+            <p>Total Time: <span id='score'> 0</span> seconds</p>
+        </div>
+
+        <!-- <button id="reset" onclick="reset()">Reset</button> -->
+        
+
+    </body>
+</html>
